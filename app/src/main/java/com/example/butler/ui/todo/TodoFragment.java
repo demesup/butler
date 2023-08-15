@@ -15,7 +15,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.butler.MainActivity;
 import com.example.butler.R;
 import com.example.butler.be.TodoTaskDao;
-import com.example.butler.be.model.TodoAdapter;
 import com.example.butler.be.model.TodoTask;
 import com.example.butler.databinding.FragmentTodoBinding;
 import com.example.butler.ui.DialogCloseListener;

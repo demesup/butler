@@ -6,24 +6,27 @@
     <EditText
         android:id="@+id/newTaskText"
         android:layout_width="wrap_content"
-        android:layout_height="59dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="5dp"
         android:layout_marginBottom="5dp"
         android:background="@null"
-        android:hint="New Task"
-        android:maxWidth="300dp"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        android:hint="@string/new_task"
+        android:maxWidth="250dp"
+        android:minWidth="200dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:importantForAutofill="no" />
 
     <Button
         android:id="@+id/addTaskButton"
-        android:layout_width="65dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="9dp"
-        android:maxWidth="50dp"
-        android:text="Save"
+        android:maxWidth="60dp"
+        android:layout_centerVertical="true"
+        android:text="@string/save"
         android:textAllCaps="true"
         android:textSize="11sp" />
 

@@ -23,4 +23,6 @@
         item
     </string>
     <string name="title_activity_splash">SplashActivity</string>
+    <string name="save">Save</string>
+    <string name="new_task">New Task</string>
 </resources>
